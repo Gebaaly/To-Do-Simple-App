@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.add {
+  background-color: #d1d9e099;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.add-task {
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+}
+.btn {
+  background: red;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.task-div {
+  background-color: #d1d9e099;
+  width: 500px;
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.task {
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.del {
+  background: red;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.done {
+background-color: cornflowerblue;}
